@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse - Jogos & Conquistas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1409/1409180.png">
+</head>
+
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gray-800 shadow-lg fixed top-0 w-full z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <a href="#" class="flex items-center space-x-2">
+                <img src="https://cdn-icons-png.flaticon.com/512/1409/1409180.png" alt="Logo GameVerse"
+                    class="w-10 h-10">
+                <span class="text-2xl font-bold tracking-wide text-indigo-400">GameVerse</span>
+            </a>
+
+            <!-- Menu -->
+            <nav class="hidden md:flex space-x-8 text-lg">
+                <a href="#home" class="hover:text-indigo-400 transition">Início</a>
+                <a href="#guides" class="hover:text-indigo-400 transition">Guias</a>
+                <a href="#news" class="hover:text-indigo-400 transition">Notícias</a>
+                <a href="#community" class="hover:text-indigo-400 transition">Comunidade</a>
+                <a href="#about" class="hover:text-indigo-400 transition">Sobre</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center"
+        style="background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');">
+        <div class="bg-black bg-opacity-60 p-10 rounded-2xl">
+            <h1 class="text-5xl font-bold mb-4 text-indigo-400">Explore o Universo dos Games</h1>
+            <p class="max-w-2xl mx-auto text-lg mb-6">Guias detalhados, conquistas, dicas e notícias para jogadores que
+                querem ir além. Descubra segredos, domine mecânicas e alcance 100% nos seus jogos favoritos.</p>
+            <a href="#guides"
+                class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-full text-lg font-semibold transition">Ver
+                Guias</a>
+        </div>
+    </section>
+
+    <!-- Guias -->
+    <section id="guides" class="py-20 max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12 text-indigo-400">Guias de Conquistas</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+            <!-- Card 1 -->
+            <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1598515213695-2599420d7af1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="RPG" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-3">RPG Épico</h3>
+                    <p class="text-gray-300 mb-4">Descubra como alcançar todas as conquistas em aventuras de RPG, com
+                        estratégias para chefes e rotas secretas.</p>
+                    <a href="#" class="text-indigo-400 font-semibold hover:underline">Ler mais →</a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1608817584374-0a2f9d56f1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="FPS" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-3">FPS Competitivos</h3>
+                    <p class="text-gray-300 mb-4">Guia de conquistas para shooters, incluindo dicas para melhorar mira,
+                        mapas e segredos de desempenho.</p>
+                    <a href="#" class="text-indigo-400 font-semibold hover:underline">Ler mais →</a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+                <img src="https://images.unsplash.com/photo-1621259182978-fbf93132a625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Aventura" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-3">Jogos de Aventura</h3>
+                    <p class="text-gray-300 mb-4">Explore cada canto dos mundos abertos e descubra como não perder
+                        nenhuma conquista importante.</p>
+                    <a href="#" class="text-indigo-400 font-semibold hover:underline">Ler mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notícias -->
+    <section id="news" class="py-20 bg-gray-800 px-6">
+        <h2 class="text-4xl font-bold text-center mb-12 text-indigo-400">Últimas Notícias</h2>
+        <div class="max-w-4xl mx-auto space-y-6">
+            <article class="bg-gray-900 p-6 rounded-2xl shadow">
+                <h3 class="text-2xl font-semibold mb-2">Novo RPG promete revolucionar o gênero</h3>
+                <p class="text-gray-300">Com gráficos impressionantes e uma narrativa profunda, esse jogo já está
+                    conquistando fãs ao redor do mundo.</p>
+            </article>
+            <article class="bg-gray-900 p-6 rounded-2xl shadow">
+                <h3 class="text-2xl font-semibold mb-2">Atualização traz conquistas inéditas</h3>
+                <p class="text-gray-300">O update mais recente adiciona novos desafios e recompensas para jogadores
+                    veteranos e novatos.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Comunidade -->
+    <section id="community" class="py-20 max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12 text-indigo-400">Comunidade</h2>
+        <p class="text-center text-lg text-gray-300 max-w-3xl mx-auto mb-10">Participe de discussões, compartilhe suas
+            conquistas e faça parte de um grupo apaixonado por games. Aqui você encontra dicas, ajuda e companheiros de
+            jogatina.</p>
+        <div class="text-center">
+            <a href="#"
+                class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-full text-lg font-semibold transition">Entrar
+                na Comunidade</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="py-20 bg-gray-800 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6 text-indigo-400">Sobre o GameVerse</h2>
+            <p class="text-lg text-gray-300">O GameVerse nasceu da paixão por videogames e da vontade de ajudar
+                jogadores a conquistarem o máximo em cada título. Nosso objetivo é reunir dicas, notícias, análises e
+                guias completos em um só lugar.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 mt-10 text-center text-gray-400">
+        <p>© 2025 GameVerse. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
